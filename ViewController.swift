@@ -52,7 +52,7 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
             tasks = try context!.fetch(Works.fetchRequest())
             
         } catch  {
-            print("fetch failed")
+            print("show error")
         }
     }
     
